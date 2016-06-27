@@ -4,7 +4,7 @@ MAINTAINER Lucian Yogarajah <lucian_y@yahoo.com>
 # Prevent dpkg errors
 ENV TERM=xterm-256color
 
-# Set mirrors to NZ
+# Set mirrors to US
 # RUN sed -i "s/http:\/\/archive./http:\/\/us.archive./g" /etc/apt/sources.list
 
 # Install Python runtime
